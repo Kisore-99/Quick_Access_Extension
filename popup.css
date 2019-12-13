@@ -1,17 +1,18 @@
 html, body{
-    font-family: Open Sans, sans-serif;
-    font-size: 15px;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
     margin: 0;
-    min-height: 170px;
+    min-height: 190px;
     padding: 0;
-    width: 370px;
+    width: 390px;
+    color: #084672
 }
 h1{
-    font-family: Menlo, monospace;
-    font-size: 22px;
-    font-weight: 400;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+    font-weight: 500;
     margin: 0;
-    color: #2f5876
+    color: #2d80bb
 }
 a:link, a:visited{
     color: #000;
@@ -24,9 +25,11 @@ img{
 .modal-header{
   align-items: center;  
   border-bottom: 0.5px solid #dadada;
+  
 }
 .modal-content{
     padding: 0 22px;
+    border-bottom: 0.5px solid #dadada;
 }
 .modal-icons{
     border-top: 0.5px solid #dadada;
@@ -36,14 +39,16 @@ img{
 .logo{
     padding: 16px
 }
-.logi-icon{
+.logo-icon{
     vertical-align: text-bottom;
     margin: 12px;
+    size: 20px;
 }
 
 .version{
-    color: #4444;
+    color: rgba(29, 14, 163, 0.267);
     font-size: 16px;
+    font-weight: 300;
 }
 .flex-container{
     display: flex;
@@ -60,6 +65,6 @@ img{
 }
 .flex .fa{
     font-size: 40px;
-    color: #2f5876;
-    padding: 5px;
+    color: #070e35;
+    padding: 12px;
 }
